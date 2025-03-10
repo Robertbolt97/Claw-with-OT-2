@@ -38,6 +38,7 @@ The following was perfomed after the installation of the 3D printed hardware
 - The UART cable was plugged into USB-1 port
 - The OT-2 was powered on and a minute was allowed for the raspberry pi wh to fully boot
 - On the opentrons app go to devices
+  ![Opentrons devices tab](Pi zero wh code/Images/Main tab.jpg)
   - three dots in top right corner
   - robot settings
   - advanced settings
