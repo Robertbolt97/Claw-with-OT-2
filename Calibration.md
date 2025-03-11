@@ -19,7 +19,9 @@ position = plate["A6"].top().move(Point(x=20.5, y=86.0, z=174.0))
 
   2) The Claw calibration
 
-The servo motor's operational range is defined by pulse width values in lines 103 and 104, spanning from 1230 to 1279. With a step increment of 7 (specified in line 106), this translates to a total pulse width variation of 49, resulting in 7 discrete movement steps. The pulse width is progressively increased, driving the gripping claw to its fully open position, which is then mechanically limited by a stopper.
+A standardized script structure was employed for all claw control scripts deployed on the Raspberry Pi. The open_full.py script serves as a representative example.
+
+Within this script, lines 103 and 104 define the servo motor's operational range via pulse width modulation (PWM) values, spanning from 1230 to 1279. Utilizing a 7-unit step increment (line 106), this results in a 49-unit pulse width variation, corresponding to 7 discrete movement steps. The PWM is incrementally increased, driving the claw to its fully open position, which is mechanically limited by a physical stopper.
 
    ![Pulse width measurements](Pi_zero_wh_code/Images/PWM.jpg)
 
