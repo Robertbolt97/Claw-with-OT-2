@@ -14,4 +14,4 @@ The following calibration is required for the claw to function correctly and con
 
   2) The Claw calibration
 
-     ![Pulse width measurements](Pi zero wh code/Images/PWM.JPG)
+     ![Pulse width measurements](Pi zero wh code/Images/PWM.jpg)
