@@ -22,3 +22,5 @@ position = plate["A6"].top().move(Point(x=20.5, y=86.0, z=174.0))
 The servo motor's operational range is defined by pulse width values in lines 103 and 104, spanning from 1230 to 1279. With a step increment of 7 (specified in line 106), this translates to a total pulse width variation of 49, resulting in 7 discrete movement steps. The pulse width is progressively increased, driving the gripping claw to its fully open position, which is then mechanically limited by a stopper.
 
    ![Pulse width measurements](Pi_zero_wh_code/Images/PWM.jpg)
+
+   The same procedure is performed for all scripts used.
