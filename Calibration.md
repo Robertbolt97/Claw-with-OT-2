@@ -9,9 +9,8 @@ X = 20.5 mm: This offset compensates for the P300 8-channel pipette's position i
 Y = 86.0 mm: This offset accounts for the pipette mount's extension, preventing collisions between the labware and pipettes during retrieval along the y-axis.
 Z = 174.0 mm: This vertical coordinate positions the claw sufficiently high to avoid interference during labware movement.
 
-```
 Resulting Position: The final retrieval position is defined by the following Python command:
-  
+```
 position = plate["A6"].top().move(Point(x=20.5, y=86.0, z=174.0))
 ```
 
