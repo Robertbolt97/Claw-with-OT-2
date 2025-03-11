@@ -23,4 +23,32 @@ The servo motor's operational range is defined by pulse width values in lines 10
 
    ![Pulse width measurements](Pi_zero_wh_code/Images/PWM.jpg)
 
-   The same procedure is performed for all scripts used.
+A consistent calibration methodology is applied across all claw control scripts. These scripts are categorized as follows:
+
+1. Closing Actions:
+
+ - close: Standard closing action.
+ - close_full: Full closure action.
+ - close_small: Partial closure action.
+ - close_small_hold: Partial closure with sustained pulse-width modulation (PWM) to maintain grip on heavier labware. The servo motor remains powered until an open_small script is executed.
+
+2. Opening Actions:
+
+  - open_small: Partial opening action.
+  - open_full: Full opening action.
+
+3. Downward Movement Actions:
+
+  - down: Standard downward movement without labware.
+  - down_full: Full downward movement with labware.
+  The PWM values for these scripts are adjusted to the minimum limit of downward travel.
+
+4. Upward Movement Actions:
+
+  - up: Standard upward movement.
+  - up_1: Alternative upward movement.
+  - up_2: Upward movement with sustained PWM to maintain position when handling heavier labware. The servo motor remains powered until a down script is executed.
+
+The PWM values for the scripts above are adjusted to the maximum upward travel limit, determined by the claw's structural design.
+    
+  - up_small: Upward movement with a specific PWM adjustment to accommodate labware with larger lips.
