@@ -71,8 +71,35 @@ This is the completion of the bottom body.
 
 11A) <ins>BE EXTRA CAREFUL HERE!</ins> The M3 x 20 slotted pan head screw was then screw into place with the M3 hex nut. Attaching the loweing arm to the lower body. Make to keep the servo wire away from the screw else you risk cutting the wire!
 
-12) The gantry was then pulled all the way to the front of the device with the bottom body with rail being gently pushed through the rail cutout on the top body.
+12) The gantry was then pulled all the way to the front of the device with the bottom body with rail being gently pushed through the rail cutout on the top body (the groves must be facing away from you).
 
     ![Step 12](Images/Step_12.jpg)
 
+Important: If you encounter excessive force or limited movement in any of the mechanical components, it's likely due to friction. To resolve this, carefully smooth any rough edges with a steel file and apply a small amount of mineral oil or another suitable lubricant.
+
 <ins>Electronic assembly</ins>
+
+13) Two sets of servo wires (horizontal and vertical servo motors) were fed from the top of the gantry following the ribbon cable pathway to ensure smooth operation, exiting the device via the back panel of the OT-2
+
+    ![Step 13](Images/Step_13.jpg)
+    ![Step 13A](Images/Step_13A.jpg)
+    ![Step 13B](Images/Step_13B.jpg)
+    ![Step 13C](Images/Step_13C.jpg)
+
+14) The servo wires were then plugged into the raspberry pi zero wh at there connect location. In this case vertical motor control is #15 and horizontal motor control is #0 (Make sure the yellow pin is connected to the brown servo wire else the servo will no move and make a high pitch noise upon connection)
+
+    ![Step 14B](Images/Step_14B.jpg)
+
+14A) The UART cable was then plugged into the raspberry pi zero wh:
+  - Red (5V) - pin 2
+  - Black (GND) - pin 6
+  - Green (TXD) - pin 8
+  - White (RXD) - pin 10
+
+    ![Step 14](Images/Step_14.jpg)
+
+The USB end was then plugged into USB-1 of the OT-2
+
+   ![Step 14A](Images/Step_14A.jpg)
+
+
