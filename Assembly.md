@@ -26,10 +26,41 @@ This assembly guide assumes all required components have been acquired and all 3
 
 4) Then one M3 x 6 mm hex socket button screw was inserted from the back of each of the holes in the support bracket and a M3 square nut was loosely fit. This was then slid up the OT-2's gantry via the rails (Note remove the small screw if situated by the red arrow as this will prevent the fitting)
 
-    ![Step 4](Images/Step_4.jpg) 
+    ![Step 4](Images/Step_4.jpg)
+
+4A) The top body was then slid up the gantry until it was approximately 5 cm from the base of the gantry. The screws were then tightened up.
+
+  ![Step 4A](Images/Step_4A.jpg)
+
+This is the completion of the top body.
 
 * *Bottom body (Horizontal movement)* *
    ![Bottom body](Images/Bottom_body.png)
 
+5) The servo motor was screw into position with the rotating axis aligned with the centre of the slider main body.
+
+  ![Step 5](Images/Step_5.jpg)
+
+6) The slider main body gear was screwed into the servo
+
+  ![Step 6](Images/Step_6.jpg)
+
+7) The back slider was then attached using the self-tapping screws (2.9 mm x 13mm)
+
+   ![Step 7](Images/Step_7.jpg)
+
+8) The front slider was then attached using the seld-tapping screws (2.9 mm x 9.5 mm)
+
+   ![Step 8](Images/Step_8.jpg)
+
+9) The sliding fork reinforce's were then added by sliding them into place <ins>AT THE SAME TIME</ins>.
+
+    ![Step 9](Images/Step_9.jpg)
+
+10) The stopper was then push fitted into position
+
+    ![Step 10](Images/Step_10.jpg)
+
+This is the completion of the bottom body.
 
 <ins>Electronic assembly</ins>
