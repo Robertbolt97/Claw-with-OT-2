@@ -6,7 +6,7 @@ This assembly guide assumes all required components have been acquired and all 3
 
 <ins>**3D assembly**</ins>
 
-* *Top body (Verical movement)* *
+* *Top body (Verical movement)* 
   ![Top body](Images/Top_body.png)
 1) The support brackets were slid into place on the front main body
    
@@ -34,7 +34,7 @@ This assembly guide assumes all required components have been acquired and all 3
 
 This is the completion of the top body.
 
-* *Bottom body (Horizontal movement)* *
+* *Bottom body (Horizontal movement)* 
    ![Bottom body](Images/Bottom_body.png)
 
 5) The servo motor was screw into position with the rotating axis aligned with the centre of the slider main body.
@@ -62,5 +62,17 @@ This is the completion of the top body.
     ![Step 10](Images/Step_10.jpg)
 
 This is the completion of the bottom body.
+
+<ins> Combining top with bottom </ins>
+
+11) The lowering are was attached to the lower body and with the servo wire fed through the hole down the centre of the shaft after carefully removing the plastic casing. This was then reattached once the wire had been fed through.
+
+    ![Step 11](Images/Step_11.jpg)
+
+11A) <ins>BE EXTRA CAREFUL HERE!</ins> The M3 x 20 slotted pan head screw was then screw into place with the M3 hex nut. Attaching the loweing arm to the lower body. Make to keep the servo wire away from the screw else you risk cutting the wire!
+
+12) The gantry was then pulled all the way to the front of the device with the bottom body with rail being gently pushed through the rail cutout on the top body.
+
+    ![Step 12](Images/Step_12.jpg)
 
 <ins>Electronic assembly</ins>
