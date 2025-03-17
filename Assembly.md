@@ -1,6 +1,6 @@
 This document provides a detailed assembly guide for the plate handler (also known as the claw).
 
-This assembly guide assumes all required components have been acquired and all 3D-printed parts from the 'CAD' folder are complete.
+This assembly guide assumes all required components have been acquired, the front plastic cover has been removed and all 3D-printed parts from the 'CAD' folder are complete.
 
 ![The Claw](CAD_Files/Claw_numbered.jpg)
 
